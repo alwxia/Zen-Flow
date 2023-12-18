@@ -1,525 +1,575 @@
 <!DOCTYPE html>
 <html lang="ro">
-    <head>
-        <meta charset="utf-8">
-        <meta name="author" content="Dache Alexia-Elena">
-        <meta name="keywords" content="yoga, zen, sport, mișcare, comunitate">
-        <meta name="description" content="Bine ai venit la Zen Flow - un sanctuar al minții, corpului și sufletului. Pătrunde într-o călătorie transformatoare în care mișcarea întâlnește conștiința. Explorează clase diverse, conectează-te cu instructori dedicați și descoperă o comunitate devotată binefacerii personale. Îmbrățișează bucuria practicii yoga și găsește echilibrul în suflet. Călătoria ta de yoga începe aici. Namaste.">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Zen Flow</title>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-        <style>
-            body {
-                font-family: 'Montserrat', sans-serif;
-                background-color: #f4fcf9;
-            }       
 
-            nav {
-                background-color: #d6e7e1;
-            }
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Dache Alexia-Elena">
+  <meta name="keywords" content="yoga, zen, sport, mișcare, comunitate">
+  <meta name="description"
+    content="Bine ai venit la Zen Flow - un sanctuar al minții, corpului și sufletului. Pătrunde într-o călătorie transformatoare în care mișcarea întâlnește conștiința. Explorează clase diverse, conectează-te cu instructori dedicați și descoperă o comunitate devotată binefacerii personale. Îmbrățișează bucuria practicii yoga și găsește echilibrul în suflet. Călătoria ta de yoga începe aici. Namaste.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zen Flow</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: #f4fcf9;
+    }
 
-            nav a {
-                margin-left: 15px;
-            }
+    nav {
+      background-color: #d6e7e1;
+    }
 
-            nav a:hover {
-            text-decoration: underline;
-            }
+    nav a {
+      margin-left: 15px;
+    }
 
-            h1 {
-                font-size: 25px;
-                color:#323832;
-            }
-            
-            .h1-margin {
-                margin: 5px;
-            }
+    nav a:hover {
+      text-decoration: underline;
+    }
 
-            h2 {
-                font-size: 40px;
-                margin: 15px;
-            }
+    h1 {
+      font-size: 25px;
+      color: #323832;
+    }
 
-            h3 {
-                font-size: 25px;
-                margin-bottom: 20px;
-            }
+    .h1-margin {
+      margin: 5px;
+    }
 
-            .p-desprenoi {
-                font-size: 20px;
-                margin: 15px;
-                margin-top: 25px;
-            }
+    h2 {
+      font-size: 40px;
+      margin: 15px;
+    }
 
-            .desprenoi {
-                padding: 40px;
-            }
+    h3 {
+      font-size: 25px;
+      margin-bottom: 20px;
+    }
 
-            .text-cursuri {
-                margin-left: 40px;
-            }
+    .p-desprenoi {
+      font-size: 20px;
+      margin: 15px;
+      margin-top: 25px;
+    }
 
-            .p-cursuri {
-                font-size: 20px;
-            }
+    .desprenoi {
+      padding: 40px;
+    }
 
-            .footer-color {
-                background-color: #7eb396;
-            }
+    .text-cursuri {
+      margin-left: 40px;
+    }
 
-            .card-color {
-                background-color: #e5f5ef;
-            }
+    .p-cursuri {
+      font-size: 20px;
+    }
 
-            .carousel-full {
-              width: 100%;
-            }
+    .footer-color {
+      background-color: #7eb396;
+    }
 
-            .transparent {
-              background-color: #f4fcf9;
-            }
+    .card-color {
+      background-color: #e5f5ef;
+    }
 
-            .container-antrenori {
-              display:flex;
-            }
+    .carousel-full {
+      width: 100%;
+    }
 
-            .circle-an {
-              border-radius: 50%;
-            }
+    .transparent {
+      background-color: #f4fcf9;
+    }
 
-            .text-center {
-              text-align: center;
-            }
+    .container-antrenori {
+      display: flex;
+    }
 
-            hr {
-              width: 98%;
-              margin: auto;
-            }
+    .circle-an {
+      border-radius: 50%;
+    }
 
-            .centered-list {
-              display: flex;
-              flex-direction: column;
-              align-items: center;
-              padding: 0;
-            }
+    .text-center {
+      text-align: center;
+    }
 
-            .pad-abonamente {
-              padding:20px;
-            }
+    hr {
+      width: 98%;
+      margin: auto;
+    }
 
-            .h3-abonamente {
-                font-size: 25px;
-                margin: 15px;
-                text-align: center;
-            }
+    .centered-list {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
+    }
 
-            .p-abonamente {
-                font-size: 15px;
-                margin: 15px;
-            }
+    .pad-abonamente {
+      padding: 20px;
+    }
 
-            .pret-abonamente {
-                font-size: 25px;
-                margin: 15px;
-                text-align: center;
-            }
+    .h3-abonamente {
+      font-size: 25px;
+      margin: 15px;
+      text-align: center;
+    }
 
-            footer {
-              background-color: #b9d4cb;
-              padding: 20px;
-              margin-top: 30px;
-            }
+    .p-abonamente {
+      font-size: 15px;
+      margin: 15px;
+    }
 
-            .footer-text {
-              text-align: center;
-              font-size: 15px;
-            }
+    .pret-abonamente {
+      font-size: 25px;
+      margin: 15px;
+      text-align: center;
+    }
 
-            .container-f {
-              display: flex;
-              justify-content: space-between;
-              align-items: center;
-              width: 100%;
-            }
+    footer {
+      background-color: #b9d4cb;
+      padding: 20px;
+      margin-top: 30px;
+    }
 
-            .p-italic {
-              font-style: italic;
-            }
+    .footer-text {
+      margin-left:15px;
+    }
 
-            .logo {
-              margin:10px;
-            }
+    .container-f {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    }
 
-        </style>
-        
-    </head>
-    <body>
-        <header>
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-              <h1 class="h1-margin">
-                <a class="nav-link" href="#index.html">
-                    <img src="img/logo1.png" alt="Un logo cu o persoană care meditează">
-                Zen Flow
-            </a>
-            </h1>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#desprenoi">Despre noi</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#cursuri">Cursuri</a>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#antrenori">Antrenori</a>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#abonamente">Abonamente</a>    
-                </ul>
+    .p-italic {
+      font-style: italic;
+    }
+
+    .logo {
+      margin: 10px;
+      width: 15%;
+    }
+  </style>
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <h1 class="h1-margin">
+          <a class="nav-link" href="#index.html">
+            <img src="img/logo1.png" alt="Un logo cu o persoană care meditează">
+            Zen Flow
+          </a>
+        </h1>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#desprenoi">Despre noi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#cursuri">Cursuri</a>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#antrenori">Antrenori</a>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#abonamente">Abonamente</a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    </nav>
+  </header>
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+        aria-label="Slide 5"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/pietre2.jpg" class="d-block w-100" alt="Pietre puse una peste alta">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Descoperiți calea către pacea interioară și fizică prin yoga.</h2>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/crystal.jpg" class="d-block w-100" alt="O statuie Buddha înconjurată de două cristale">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Yoga este arta cunoașterii corpului, minții și sufletului.</h2>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/yoga.jpg" class="d-block w-100" alt="Două femei ce fac yoga în aer liber, la răsăritul soarelui">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Corpul beneficiază de mișcare, iar mintea beneficiază de liniște.</h2>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/lotus.jpg" class="d-block w-100" alt="O floare lotus ce plutește pe apă">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Yoga este dansul corpului și al sufletului cu muzica fiecărei respirații.</h2>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/beach.jpg" class="d-block w-100" alt="Un bărbat ce face yoga pe malul mării">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>În mijlocul haosului, păstrează liniștea în interiorul tău.</h2>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <section id="desprenoi">
+    <div class="desprenoi">
+      <div class="card mb-3 card-color">
+        <div class="row g-0">
+          <div class="col-lg-5 col-md-12">
+            <img src="img/desprenoi.jpg" class="img-fluid rounded-start" alt="Trei fete care fac yoga în pădure">
+          </div>
+          <div class="col-lg-7 col-md-12">
+            <div class="card-body">
+              <h2 class="card-title">Despre noi</h2>
+              <p class="p-desprenoi">Bun venit la Zen Flow, unde arta yoga și esența ei se îmbină cu o comunitate largă
+                și primitoare, ce este dedicată păcii spirituale. </p>
+              <p class="p-desprenoi">În cadrul Zen Flow, noi împărtășim stilul de viață holistic ce hrănește corpul,
+                mintea și spiritul. Cu numeroase cursuri și o echipă largă de antrenori, Zen Flow devine un mediu în
+                care toată lumea, indiferent de vârstă sau personalitate, se poate reuni pentru a explora beneficiile
+                exercițiilor yoga.</p>
+              <p class="p-desprenoi">Aici, sărbătorim diversitatea yoga, îmbrățișând nenumăratele sale stiluri și
+                filozofii. Indiferent dacă ești un yoghin experimentat sau un începător curios, comunitatea noastră este
+                un sanctuar primitor unde poți descoperi puterea transformatoare a respirației, mișcării și atenției.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <section id="cursuri">
+    <h2 class="text-cursuri">Cursurile noastre</h2>
+    <p class="text-cursuri p-cursuri">La Zen Flow oferim o gamă diversă de cursuri concepute pentru a satisface
+      pasionații de yoga de toate nivelurile și preferințele. Explorează tapiseria bogată a stilurilor de yoga și
+      descoperă-l pe cel care rezonează cel mai mult cu spiritul tău.</p>
+    <div class="desprenoi">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col">
+          <div class="card h-100 card-color">
+            <img src="img/yoga1.jpg" class="card-img-top" alt="Două persoane care fac yoga">
+            <div class="card-body">
+              <h3 class="card-title">Yoga pentru Începători</h3>
+              <p class="p-cursuri">A începe să faci yoga este atât interesant, cât și intimidant, iar noi avem la
+                dizpoziție un curs introductiv pentru pozițiile yoga introductive și noile terminologii.</p>
+            </div>
+            <button type="button" class="btn btn-success footer-color position-relative">
+              6 săptămâni - 10 cursuri
+            </button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 card-color">
+            <img src="img/yoga2.jpg" class="card-img-top" alt="O femeie care stă întinsă pe o saltea de yoga">
+            <div class="card-body">
+              <h3 class="card-title">Gentle Yoga</h3>
+              <p class="p-cursuri">Clasele de yoga blândă sau "feel good" yoga includ mișcări efectuate într-un ritm
+                lent și exerciții de respirații. Acest stil de yoga ajută la relaxarea corpului și dezvoltarea
+                concentrației.</p>
+            </div>
+            <button type="button" class="btn btn-success footer-color position-relative">
+              5 săptămâni - 15 cursuri
+            </button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 card-color">
+            <img src="img/yoga3.jpg" class="card-img-top" alt="Trei femei care meditează">
+            <div class="card-body">
+              <h3 class="card-title">Yin Yoga</h3>
+              <p class="p-cursuri">Stilul de yoga pasiv prin care poți să îți atingi țesuturile profunde ale corpului.
+                Acest stil de yoga ajută la reglarea fluxului de energie în organismul tău.</p>
+            </div>
+            <button type="button" class="btn btn-success footer-color position-relative">
+              6 săptămâni - 20 cursuri
+            </button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 card-color">
+            <img src="img/yoga4.jpg" class="card-img-top" alt="O femeie ce face exerciții de yoga pe un covor roz">
+            <div class="card-body">
+              <h3 class="card-title">Vinyasa Yoga</h3>
+              <p class="p-cursuri">Vinyasa yoga este adesea considerat cel mai atletic stil de yoga și a fost adaptat
+                din ashtanga yoga în anii 1980. Multe tipuri de yoga pot fi, de asemenea, considerate "curgeri vinyasa",
+                cum ar fi ashtanga, power yoga și prana.</p>
+            </div>
+            <button type="button" class="btn btn-success footer-color position-relative">
+              7 săptămâni - 15 cursuri
+            </button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 card-color">
+            <img src="img/yoga5.jpg" class="card-img-top"
+              alt="Două femei care fac yoga împreună, ținând-use una pe alta în echilibru">
+            <div class="card-body">
+              <h3 class="card-title">Kundalini Yoga</h3>
+              <p class="p-cursuri">Practica Kundalini yoga este în egală măsură spirituală și fizică. Acest stil se
+                referă la eliberarea energiei kundalini din corpul tău despre care se spune că este prins, sau
+                încolăcit, în coloana inferioară.</p>
+            </div>
+            <button type="button" class="btn btn-success footer-color position-relative">
+              7 săptămâni - 20 cursuri
+            </button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 card-color">
+            <img src="img/yoga6.jpg" class="card-img-top" alt="O femeie care stă în poziție de meditare">
+            <div class="card-body">
+              <h3 class="card-title">Yoga Prenatală</h3>
+              <p class="p-cursuri">Yoga prenatală este făcută pentru viitoarele mame, indiferent de trimestru. Yoga
+                prenatală este una dintre cele mai bune tipuri de exerciții pentru viitoarele mame, datorită
+                concentrării pe respirație și a legăturii cu copilul în creștere.</p>
+            </div>
+            <button type="button" class="btn btn-success footer-color position-relative">
+              6 săptămâni - 15 cursuri
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <section id="antrenori">
+    <div class="desprenoi">
+      <div class="transparent">
+        <div class="row g-0">
+          <div class="col-lg-6 col-md-12">
+            <div class="card-body">
+              <h2 class="text-center card-title">Antrenori</h2>
+              <p class="text-center p-desprenoi">Zen Flow și echipa noastră de antrenori cu ani de experiență provin
+                dintr-o multitudine de medii și experiențe educaționale diverse! Conexiunea personală este una dintre
+                cele mai importante valori pentru echipa noastră și sunt pregătiți să predea unor varietăți de persoane,
+                inclusiv ție!</p>
+              <p class="text-center p-desprenoi">Faceți cunoștință cu ghizii de la sanctuarului yoga Zen Flow - un
+                colectiv de instructori pasionați, care sunt dedicați să te ghideze în călătoria ta transformatoare. În
+                centrul comunității noastre se află o credință comună în puterea yoga de a hrăni corpul, mintea și
+                sufletul.</p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <div class="row row-cols-2 row-cols-md-4 row-cols-lg-4 g-4">
+              <div class="col">
+                <div class="h-100 transparent">
+                  <img src="img/w1.jpg" class="circle-an card-img-top" alt="O femeie">
+                </div>
+              </div>
+              <div class="col">
+                <div class="h-100">
+                  <img src="img/m1.jpg" class="circle-an card-img-top" alt="Un bărbat">
+                </div>
+              </div>
+              <div class="col">
+                <div class="h-100">
+                  <img src="img/m2.jpg" class="circle-an card-img-top" alt="Un bărbat">
+                </div>
+              </div>
+              <div class="col">
+                <div class="h-100">
+                  <img src="img/w2.jpg" class="circle-an card-img-top" alt="O femeie">
+                </div>
+              </div>
+              <div class="col">
+                <div class="h-100 transparent">
+                  <img src="img/w3.jpg" class="circle-an card-img-top" alt="O femeie">
+                </div>
+              </div>
+              <div class="col">
+                <div class="h-100">
+                  <img src="img/m3.jpg" class="circle-an card-img-top" alt="Un bărbat">
+                </div>
+              </div>
+              <div class="col">
+                <div class="h-100">
+                  <img src="img/m4.jpg" class="circle-an card-img-top" alt="Un bărbat">
+                </div>
+              </div>
+              <div class="col">
+                <div class="h-100">
+                  <img src="img/w4.jpg" class="circle-an card-img-top" alt="O femeie">
+                </div>
               </div>
             </div>
-          </nav>
-        </nav>
-        </header>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
-            </div>
+
+  <div class="desprenoi">
+    <div class="transparent">
+      <div class="row g-0">
+        <div class="col-lg-6 col-md-12">
+          <div id="carouselExampleControls" class="carousel carousel-full slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="img/pietre2.jpg" class="d-block w-100" alt="Pietre puse una peste alta">
-                <div class="carousel-caption d-none d-md-block">
-                  <h2>Descoperiți calea către pacea interioară și fizică prin yoga.</h2>
-                </div>
+                <img src="img/galerie1.jpg" class="d-block w-100"
+                  alt="Trei femei ce fac exerciții yoga pe niște saltele roz">
               </div>
               <div class="carousel-item">
-                <img src="img/crystal.jpg" class="d-block w-100" alt="O statuie Buddha înconjurată de două cristale">
-                <div class="carousel-caption d-none d-md-block">
-                  <h2>Yoga este arta cunoașterii corpului, minții și sufletului.</h2>
-                </div>
+                <img src="img/galerie2.jpg" class="d-block w-100"
+                  alt="Un grup mare de femei ce participă la un curs de yoga">
               </div>
               <div class="carousel-item">
-                <img src="img/yoga.jpg" class="d-block w-100" alt="Două femei ce fac yoga în aer liber, la răsăritul soarelui">
-                <div class="carousel-caption d-none d-md-block">
-                  <h2>Corpul beneficiază de mișcare, iar mintea beneficiază de liniște.</h2>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="img/lotus.jpg" class="d-block w-100" alt="O floare lotus ce plutește pe apă">
-                <div class="carousel-caption d-none d-md-block">
-                  <h2>Yoga este dansul corpului și al sufletului cu muzica fiecărei respirații.</h2>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="img/beach.jpg" class="d-block w-100" alt="Un bărbat ce face yoga pe malul mării">
-                <div class="carousel-caption d-none d-md-block">
-                  <h2>În mijlocul haosului, păstrează liniștea în interiorul tău.</h2>
-                </div>
+                <img src="img/galerie3.jpg" class="d-block w-100"
+                  alt="Trei femei care vorbesc și zâmbesc una la cealaltă în timpul unui curs de yoga">
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-          
-          <section id="desprenoi">
-          <div class="desprenoi">
-          <div class="card mb-3 card-color">
-            <div class="row g-0">
-              <div class="col-lg-5 col-md-12">
-                <img src="img/desprenoi.jpg" class="img-fluid rounded-start" alt="Trei fete care fac yoga în pădure">
-              </div>
-              <div class="col-lg-7 col-md-12">
-                <div class="card-body">
-                  <h2 class="card-title">Despre noi</h2>
-                  <p class="p-desprenoi">Bun venit la Zen Flow, unde arta yoga și esența ei se îmbină cu o comunitate largă și primitoare, ce este dedicată păcii spirituale. </p>
-                  <p class="p-desprenoi">În cadrul Zen Flow, noi împărtășim stilul de viață holistic ce hrănește corpul, mintea și spiritul. Cu numeroase cursuri și o echipă largă de antrenori, Zen Flow devine un mediu în care toată lumea, indiferent de vârstă sau personalitate, se poate reuni pentru a explora beneficiile exercițiilor yoga.</p>
-                  <p class="p-desprenoi">Aici, sărbătorim diversitatea yoga, îmbrățișând nenumăratele sale stiluri și filozofii. Indiferent dacă ești un yoghin experimentat sau un începător curios, comunitatea noastră este un sanctuar primitor unde poți descoperi puterea transformatoare a respirației, mișcării și atenției.</p>
-                </div>
-              </div>
-            </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <div class="card-body">
+            <h2 class="card-title text-center">Beneficiile yoga</h2>
+            <p class="p-desprenoi text-center">În calitate de practicanți experimentați de yoga și ghizi pasionați,
+              antrenorii din cadrul Zen Flow afirmă impactul profund pe care yoga îl poate avea asupra sănătății și
+              fericirii personale:</p>
+            <ul class="centered-list">
+              <li class="p-desprenoi text-center">Trezește-te plin de energie</li>
+              <li class="p-desprenoi text-center">Găsește-ți pacea interioară</li>
+              <li class="p-desprenoi text-center">Dezvoltă-ți puterea concentrării</li>
+              <li class="p-desprenoi text-center">Crește-ți flexibilitatea corpului</li>
+              <li class="p-desprenoi text-center">Dormi mai liniștit</li>
+              <li class="p-desprenoi text-center">Trăiește o viață echilibrată</li>
+            </ul>
           </div>
-          </div>
-        </section>
+        </div>
+      </div>
+    </div>
+  </div>
 
-        <hr>
+  <hr>
 
-        <section id="cursuri">
-            <h2 class="text-cursuri">Cursurile noastre</h2>
-            <p class="text-cursuri p-cursuri">La Zen Flow oferim o gamă diversă de cursuri concepute pentru a satisface pasionații de yoga de toate nivelurile și preferințele. Explorează tapiseria bogată a stilurilor de yoga și descoperă-l pe cel care rezonează cel mai mult cu spiritul tău.</p>
-            <div class="desprenoi">
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-                <div class="col">
-                  <div class="card h-100 card-color">
-                    <img src="img/yoga1.jpg" class="card-img-top" alt="Două persoane care fac yoga">
-                    <div class="card-body">
-                      <h3 class="card-title">Yoga pentru Începători</h3>
-                      <p class="p-cursuri">A începe să faci yoga este atât interesant, cât și intimidant, iar noi avem la dizpoziție un curs introductiv pentru pozițiile yoga introductive și noile terminologii.</p>
-                    </div>
-                    <button type="button" class="btn btn-success footer-color position-relative">
-                      6 săptămâni - 10 cursuri
-                    </button>                    
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card h-100 card-color">
-                    <img src="img/yoga2.jpg" class="card-img-top" alt="O femeie care stă întinsă pe o saltea de yoga">
-                    <div class="card-body">
-                      <h3 class="card-title">Gentle Yoga</h3>
-                      <p class="p-cursuri">Clasele de yoga blândă sau "feel good" yoga includ mișcări efectuate într-un ritm lent și exerciții de respirații. Acest stil de yoga ajută la relaxarea corpului și dezvoltarea concentrației.</p>
-                    </div>
-                    <button type="button" class="btn btn-success footer-color position-relative">
-                      5 săptămâni - 15 cursuri
-                    </button>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card h-100 card-color">
-                    <img src="img/yoga3.jpg" class="card-img-top" alt="Trei femei care meditează">
-                    <div class="card-body">
-                      <h3 class="card-title">Yin Yoga</h3>
-                      <p class="p-cursuri">Stilul de yoga pasiv prin care poți să îți atingi țesuturile profunde ale corpului. Acest stil de yoga ajută la reglarea fluxului de energie în organismul tău.</p>
-                    </div>
-                    <button type="button" class="btn btn-success footer-color position-relative">
-                      6 săptămâni - 20 cursuri
-                    </button>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card h-100 card-color">
-                    <img src="img/yoga4.jpg" class="card-img-top" alt="O femeie ce face exerciții de yoga pe un covor roz">
-                    <div class="card-body">
-                      <h3 class="card-title">Vinyasa Yoga</h3>
-                      <p class="p-cursuri">Vinyasa yoga este adesea considerat cel mai atletic stil de yoga și a fost adaptat din ashtanga yoga în anii 1980. Multe tipuri de yoga pot fi, de asemenea, considerate "curgeri vinyasa", cum ar fi ashtanga, power yoga și prana.</p>
-                    </div>
-                    <button type="button" class="btn btn-success footer-color position-relative">
-                      7 săptămâni - 15 cursuri
-                    </button>
-                  </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100 card-color">
-                      <img src="img/yoga5.jpg" class="card-img-top" alt="Două femei care fac yoga împreună, ținând-use una pe alta în echilibru">
-                      <div class="card-body">
-                        <h3 class="card-title">Kundalini Yoga</h3>
-                        <p class="p-cursuri">Practica Kundalini yoga este în egală măsură spirituală și fizică. Acest stil se referă la eliberarea energiei kundalini din corpul tău despre care se spune că este prins, sau încolăcit, în coloana inferioară.</p>
-                      </div>
-                      <button type="button" class="btn btn-success footer-color position-relative">
-                        7 săptămâni - 20 cursuri
-                      </button>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="card h-100 card-color">
-                      <img src="img/yoga6.jpg" class="card-img-top" alt="O femeie care stă în poziție de meditare">
-                      <div class="card-body">
-                        <h3 class="card-title">Yoga Prenatală</h3>
-                        <p class="p-cursuri">Yoga prenatală este făcută pentru viitoarele mame, indiferent de trimestru. Yoga prenatală este una dintre cele mai bune tipuri de exerciții pentru viitoarele mame, datorită concentrării pe respirație și a legăturii cu copilul în creștere.</p>
-                      </div>
-                      <button type="button" class="btn btn-success footer-color position-relative">
-                        6 săptămâni - 15 cursuri
-                      </button>
-                    </div>
-                  </div>
-              </div>
-            </div>
-        </section>
+  <section id="abonamente">
+    <h2 class="text-center card-title">Abonamente lunare</h2>
 
-        <hr>
-
-        <section id="antrenori">
-          <div class="desprenoi">
-            <div class="transparent">
-              <div class="row g-0">
-                <div class="col-lg-6 col-md-12">
-                  <div class="card-body">
-                    <h2 class="text-center card-title">Antrenori</h2>
-                    <p class="text-center p-desprenoi">Zen Flow și echipa noastră de antrenori cu ani de experiență provin dintr-o multitudine de medii și experiențe educaționale diverse! Conexiunea personală este una dintre cele mai importante valori pentru echipa noastră și sunt pregătiți să predea unor varietăți de persoane, inclusiv ție!</p>
-                    <p class="text-center p-desprenoi">Faceți cunoștință cu ghizii de la sanctuarului yoga Zen Flow - un colectiv de instructori pasionați, care sunt dedicați să te ghideze în călătoria ta transformatoare. În centrul comunității noastre se află o credință comună în puterea yoga de a hrăni corpul, mintea și sufletul.</p>
-                  </div>
-                </div>
-                <div class="col-lg-6 col-md-12">
-                  <div class="row row-cols-2 row-cols-md-4 row-cols-lg-4 g-4">
-                    <div class="col">
-                      <div class="h-100 transparent">
-                        <img src="img/w1.jpg" class="circle-an card-img-top" alt="O femeie">
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="h-100">
-                        <img src="img/m1.jpg" class="circle-an card-img-top" alt="Un bărbat">
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="h-100">
-                        <img src="img/m2.jpg" class="circle-an card-img-top" alt="Un bărbat">
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="h-100">
-                        <img src="img/w2.jpg" class="circle-an card-img-top" alt="O femeie">
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="h-100 transparent">
-                        <img src="img/w3.jpg" class="circle-an card-img-top" alt="O femeie">
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="h-100">
-                        <img src="img/m3.jpg" class="circle-an card-img-top" alt="Un bărbat">
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="h-100">
-                        <img src="img/m4.jpg" class="circle-an card-img-top" alt="Un bărbat">
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="h-100">
-                        <img src="img/w4.jpg" class="circle-an card-img-top" alt="O femeie">
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            </div>
-          </section>
-
-
-        <div class="desprenoi">
-          <div class="transparent">
-            <div class="row g-0">
-              <div class="col-lg-6 col-md-12">
-                <div id="carouselExampleControls" class="carousel carousel-full slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="img/galerie1.jpg" class="d-block w-100" alt="Trei femei ce fac exerciții yoga pe niște saltele roz">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="img/galerie2.jpg" class="d-block w-100" alt="Un grup mare de femei ce participă la un curs de yoga">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="img/galerie3.jpg" class="d-block w-100" alt="Trei femei care vorbesc și zâmbesc una la cealaltă în timpul unui curs de yoga">
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                  </div>
-              </div>
-              <div class="col-lg-6 col-md-12">
-                <div class="card-body">
-                  <h2 class="card-title text-center">Beneficiile yoga</h2>
-                  <p class="p-desprenoi text-center">În calitate de practicanți experimentați de yoga și ghizi pasionați, antrenorii din cadrul Zen Flow afirmă impactul profund pe care yoga îl poate avea asupra sănătății și fericirii personale:</p>
-                  <ul class="centered-list">
-                    <li class="p-desprenoi text-center">Trezește-te plin de energie</li>
-                    <li class="p-desprenoi text-center">Găsește-ți pacea interioară</li>
-                    <li class="p-desprenoi text-center">Dezvoltă-ți puterea concentrării</li>
-                    <li class="p-desprenoi text-center">Crește-ți flexibilitatea corpului</li>
-                    <li class="p-desprenoi text-center">Dormi mai liniștit</li>
-                    <li class="p-desprenoi text-center">Trăiește o viață echilibrată</li>
-                </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          </div>
-
-          <hr>
-
-          <section id="abonamente">
-          <h2 class="text-center card-title">Abonamente lunare</h2>
-
-          <div class="desprenoi">
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-              <div class="col">
-              <div class="row g-0 card">
-                <img src="img/bg7.jpg" class="card-img" alt="Ramuri cu frunze verzi pe un fundal alb">
-                <div class="card-img-overlay">
-                  <h3 class="h3-abonamente">Yoga Esențială</h3>
-                <p class="p-desprenoi">Beneficii:</p>
+    <div class="desprenoi">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col">
+          <div class="row g-0 card">
+            <img src="img/bg7.jpg" class="card-img" alt="Ramuri cu frunze verzi pe un fundal alb">
+            <div class="card-img-overlay">
+              <h3 class="h3-abonamente">Yoga Esențială</h3>
+              <p class="p-desprenoi">Beneficii:</p>
               <ul>
                 <li class="p-abonamente">Acces nelimitat la clasele regulare de yoga.</li>
                 <li class="p-abonamente">Acces la workshop-uri recomandate pentru începători.</li>
                 <li class="p-abonamente">Acces la sesiuni de meditații de două ori pe lună.</li>
               </ul>
               <p class="pret-abonamente">59.99 LEI /lună</p>
-                </div>
-              </div>
-              </div>
-              <div class="col">
-              <div class="row g-0 card">
-                <img src="img/bg7.jpg" class="card-img" alt="Ramuri cu frunze verzi pe un fundal alb">
-                <div class="card-img-overlay">
-                  <h3 class="h3-abonamente">Yoga & Wellness</h3>
-                  <p class="p-desprenoi">Beneficii:</p>
-                  <ul>
-                    <li class="p-abonamente">Acces nelimitat la clasele diversificate de yoga.</li>
-                    <li class="p-abonamente">Acces la workshop-uri de eliberare de stres.</li>
-                    <li class="p-abonamente">Acces la sesiuni de meditații săptămânale.</li>
-                    <li class="p-abonamente">Acces la ghid de diete nutriționale.</li>
-                  </ul>
-                  <p class="pret-abonamente">79.99 LEI /lună</p>
-                </div>
-              </div>
-              </div>
-              <div class="col">
-              <div class="row g-0 card">
-                <img src="img/bg7.jpg" class="card-img" alt="Ramuri cu frunze verzi pe un fundal alb">
-                <div class="card-img-overlay">
-                  <h3 class="h3-abonamente">Yoga Plus</h3>
-                  <p class="p-desprenoi">Beneficii:</p>
-                  <ul>
-                    <li class="p-abonamente">Acces nelimitat toate clasele de yoga, incluzând cele de specializare.</li>
-                    <li class="p-abonamente">Acces VIP la workshop-uri și evenimente.</li>
-                    <li class="p-abonamente">Acces la sesiuni de meditații săptămânale.</li>
-                    <li class="p-abonamente">Acces la sesiuni private "one-on-one" cu antrenorul de yoga.</li>
-                  </ul>
-                  <p class="pret-abonamente">109.99 LEI /lună</p>
-                </div>
-              </div>
-              </div>
             </div>
           </div>
-          </section>
-
-          <footer>
-
-            <div class="row row-cols-1 row-cols-md-4 row-cols-lg-6 container-f">
-              <div class="footer">
-                  <h3>Contactează-ne!</h3>
-                  <p>Email: nume.prenume@gmail.com</p>
-                 <p>Tel: 07xx xxx xxx</p>
-                 <p class="p-italic">© 2023 Zen Flow All rights reserved</p>
-              </div>
-  
-              <div>
-                <a href="https://www.facebook.com/" target="_blank"><img src="img/facebook.png" class="logo" alt="Logo de la Facebook"></a>
-                <a href="https://twitter.com/home" target="_blank"><img src="img/twitter.png" class="logo" alt="Logo de la Twitter"></a>
-                <a href="https://www.instagram.com/" target="_blank"><img src="img/instagram.png" class="logo" alt="Logo de la Instagram"></a>
-              </div>
+        </div>
+        <div class="col">
+          <div class="row g-0 card">
+            <img src="img/bg7.jpg" class="card-img" alt="Ramuri cu frunze verzi pe un fundal alb">
+            <div class="card-img-overlay">
+              <h3 class="h3-abonamente">Yoga & Wellness</h3>
+              <p class="p-desprenoi">Beneficii:</p>
+              <ul>
+                <li class="p-abonamente">Acces nelimitat la clasele diversificate de yoga.</li>
+                <li class="p-abonamente">Acces la workshop-uri de eliberare de stres.</li>
+                <li class="p-abonamente">Acces la sesiuni de meditații săptămânale.</li>
+                <li class="p-abonamente">Acces la ghid de diete nutriționale.</li>
+              </ul>
+              <p class="pret-abonamente">79.99 LEI /lună</p>
+            </div>
           </div>
+        </div>
+        <div class="col">
+          <div class="row g-0 card">
+            <img src="img/bg7.jpg" class="card-img" alt="Ramuri cu frunze verzi pe un fundal alb">
+            <div class="card-img-overlay">
+              <h3 class="h3-abonamente">Yoga Plus</h3>
+              <p class="p-desprenoi">Beneficii:</p>
+              <ul>
+                <li class="p-abonamente">Acces nelimitat toate clasele de yoga, incluzând cele de specializare.</li>
+                <li class="p-abonamente">Acces VIP la workshop-uri și evenimente.</li>
+                <li class="p-abonamente">Acces la sesiuni de meditații săptămânale.</li>
+                <li class="p-abonamente">Acces la sesiuni private "one-on-one" cu antrenorul de yoga.</li>
+              </ul>
+              <p class="pret-abonamente">109.99 LEI /lună</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-    </body>
-    </html>
+  <footer>
+
+    <div class="row row-cols-1 row-cols-md-4 row-cols-lg-6 container-f">
+      <div class="footer">
+        <h3>Contactează-ne!</h3>
+        <p>Email: nume.prenume@gmail.com</p>
+        <p>Tel: 07xx xxx xxx</p>
+        <p class="p-italic">© 2023 Zen Flow All rights reserved</p>
+      </div>
+
+      <div>
+        <a href="https://www.facebook.com/" target="_blank"><img src="img/facebook.png" class="logo"
+            alt="Logo de la Facebook"></a>
+        <a href="https://twitter.com/home" target="_blank"><img src="img/twitter.png" class="logo"
+            alt="Logo de la Twitter"></a>
+        <a href="https://www.instagram.com/" target="_blank"><img src="img/instagram.png" class="logo"
+            alt="Logo de la Instagram"></a>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
